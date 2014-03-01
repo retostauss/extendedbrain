@@ -1,5 +1,6 @@
-
-ExtendedBrain is ... well ... a tool to <del>"rule them all"</del> manage everything we normal persons can't manage with our brain.
+# ExtendedBrain
+>A tool to <del>"rule them all"</del> manage everything we normal persons can't manage with our brain.
+<hr>
 
 # Table of Contents
  
