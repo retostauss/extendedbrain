@@ -1,5 +1,5 @@
 # ExtendedBrain
->A tool to <del>"rule them all"</del> manage everything we normal persons can't manage with our brain.
+>A tool to <del>"rule them all"</del> manage everything we normal persons can't manage with our brains.
 <hr>
 
 # Table of Contents
