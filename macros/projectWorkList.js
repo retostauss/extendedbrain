@@ -1,11 +1,10 @@
-/%                                                                            %/
-/% Filename: projectWorkList.js                                               %/
-/% Source URL: %/
-/% %/
-/% %/
-/% %/
-/% %/
-<<forEachTiddler 
+/%
+   Filename: projectWorkList.js
+   Usage: The following code is used as macro within ExtendedBrain, a TiddlyWikiClassic based tool
+   Version: 0.1
+   History: 0.1 / 2014-03-04 / Reto Stauss / Long time ago developped but now under version control
+
+%/<<forEachTiddler 
     where 
         'tiddler.tags.contains("Arbeit") && tiddler.fields.work_status == "$2" && tiddler.fields.ref_to_origin_of_work == "$1"'
     sortBy 
