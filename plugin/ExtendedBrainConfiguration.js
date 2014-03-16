@@ -1,10 +1,13 @@
-/%
-   Filename: ExtendedBrainConfiguration.js
-   Usage: The following code is used as plugin within ExtendedBrain, a TiddlyWikiClassic based tool. It has to be tagged as systemConfig.
-   Version: 0.1
-   History: 0.1 / 2014-03-14 / Reto Stauss / Long time ago developped but now under version control
-
-%/// // Zeitstempel im Titel von historischen Tiddlern
+/***
+|!Filename |ExtendedBrainConfiguration.js|
+|!Usage |The following code is used as configuration of ExtendedBrainPlugin, a plugin for TiddlyWikiClassic. It has to be added as tiddler named ExtendedBrainConfiguration and tagged as systemConfig. |
+|!Version |0.1 |
+!History
+!!0.1 / 2014-03-14 / Reto Stauss
+Long time ago developped but now under version control
+!Configuration Values
+***/
+// // Zeitstempel im Titel von historischen Tiddlern
 //{{{
 config.options.extendedBrainTitleTimestamp = "YYYY-0MM-0DD 0hh:0mm /";
 //}}}
@@ -28,7 +31,7 @@ config.options.extendedBrainDisplayDateFormat = "DDD, DD. MMM YYYY";
 config.options.extendedBrainDisplayDateWeekFormat = "YYYY-KW0WW";
 config.options.extendedBrainDisplayDateMonthFormat = "YYYY-0MM";
 //}}}
-// // Strings
+// // Verschiedene Texte
 //{{{
 config.options.extendedBrainDateField = "Feld";
 config.options.extendedBrainDateIsUndefined = "ist undefiniert";
